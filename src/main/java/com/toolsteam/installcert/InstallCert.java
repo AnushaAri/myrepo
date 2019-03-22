@@ -78,7 +78,6 @@ public class InstallCert {
             }
         }
         System.out.println("Loading KeyStore " + file + "...");
-        System.out.println("Loading KeyStore " + file + "...");
         InputStream in = new FileInputStream(file);
         KeyStore ks = KeyStore.getInstance(KeyStore.getDefaultType());
         ks.load(in, passphrase);
